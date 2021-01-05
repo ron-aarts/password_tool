@@ -48,6 +48,5 @@ Thumbs.db
 .salt
 vault
 # Project exclude paths
-/venv/
 /.venv/
 /.vscode/
