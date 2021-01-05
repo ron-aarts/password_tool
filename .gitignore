@@ -49,3 +49,5 @@ Thumbs.db
 vault
 # Project exclude paths
 /venv/
+/.venv/
+/.vscode/
