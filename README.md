@@ -17,12 +17,12 @@ vault is the file containing the stored entries.
 
 ## Usage of functions
 
-put_overwrite() will encrypt the passed value and overwrite the entry if it already exists.
-put() will check if the entry already exists. If it does not exist it will encrypt and store the passed values.
-get() will retrieve the entry from the vault.
-prompt_put() will prompt the user to input a value, using getpass, instead of passing it directly.
-prompt_put_overwrite() does the same as prompt_put() but overwrites the entry if it already exists.
-delete() will remove the entry from the vault.
+put_overwrite() will encrypt the passed value and overwrite the entry if it already exists.<br />
+put() will check if the entry already exists. If it does not exist it will encrypt and store the passed values.<br />
+get() will retrieve the entry from the vault.<br />
+prompt_put() will prompt the user to input a value, using getpass, instead of passing it directly.<br />
+prompt_put_overwrite() does the same as prompt_put() but overwrites the entry if it already exists.<br />
+delete() will remove the entry from the vault.<br />
 
 
 ## Code example
