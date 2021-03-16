@@ -11,9 +11,9 @@ When you import the password_tool for the first time it will create 3 files:
  - .password
  - vault
 
-.salt is a generated string which is used for the salt function. You can adjust the length by adjusting the salt_len variable.
-.password contains a generated password and is stored in base64 encoded format. You can adjust the length of the password by adjusting the passphrase_len variable.
-vault is the file containing the stored entries.
+.salt is a generated string which is used for the salt function. You can adjust the length by adjusting the salt_len variable.<br />
+.password contains a generated password and is stored in base64 encoded format. You can adjust the length of the password by adjusting the passphrase_len variable.<br />
+vault is the file containing the stored entries.<br />
 
 ## Usage of functions
 
@@ -46,3 +46,4 @@ password_tool.get('another example key')
 
 password_tool.delete('example_key')
 ```
+<br />
